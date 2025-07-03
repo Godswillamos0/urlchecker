@@ -1,6 +1,6 @@
 from fastapi import APIRouter, HTTPException, status
 from pydantic import BaseModel, Field
-from utilis import analyze_url
+from .utilis import analyze_url
 
 
 
